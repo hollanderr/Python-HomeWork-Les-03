@@ -9,6 +9,6 @@ def delenie():
 		b = float(input("Введите делитель: "))
 	except ValueError:
 		return "Ошибка Ввода!"
-	return a/b
+	return a / b
 
 print(delenie())
